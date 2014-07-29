@@ -97,7 +97,7 @@
             android:id="@+id/divider"
             android:layout_width="match_parent"
             android:layout_height="1dip"
-            android:background="@color/default_divider_color_dark"/>
+            android:background="@color/bp_default_divider_color_dark"/>
     <include
             layout="@layout/three_keys_view"
             android:id="@+id/first"/>

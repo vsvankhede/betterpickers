@@ -58,7 +58,7 @@
             android:id="@+id/divider"
             android:layout_width="match_parent"
             android:layout_height="1dip"
-            android:background="@color/default_divider_color_dark"/>
+            android:background="@color/bp_default_divider_color_dark"/>
     <com.doomonafireball.betterpickers.widget.UnderlinePageIndicatorPicker
             android:id="@+id/keyboard_indicator"
             android:layout_width="match_parent"

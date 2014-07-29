@@ -75,9 +75,9 @@ public class AmPmCirclesView extends View {
         }
 
         Resources res = context.getResources();
-        mUnselectedColor = res.getColor(R.color.white);
-        mSelectedColor = res.getColor(R.color.blue);
-        mAmPmTextColor = res.getColor(R.color.ampm_text_color);
+        mUnselectedColor = res.getColor(R.color.bp_white);
+        mSelectedColor = res.getColor(R.color.bp_blue);
+        mAmPmTextColor = res.getColor(R.color.bp_ampm_text_color);
         mSelectedAlpha = SELECTED_ALPHA;
         String typefaceFamily = res.getString(R.string.sans_serif);
         Typeface tf = Typeface.create(typefaceFamily, Typeface.NORMAL);
@@ -102,14 +102,14 @@ public class AmPmCirclesView extends View {
     /* package */ void setTheme(Context context, boolean themeDark) {
         Resources res = context.getResources();
         if (themeDark) {
-            mUnselectedColor = res.getColor(R.color.dark_gray);
-            mSelectedColor = res.getColor(R.color.red);
-            mAmPmTextColor = res.getColor(R.color.white);
+            mUnselectedColor = res.getColor(R.color.bp_dark_gray);
+            mSelectedColor = res.getColor(R.color.bp_red);
+            mAmPmTextColor = res.getColor(R.color.bp_white);
             mSelectedAlpha = SELECTED_ALPHA_THEME_DARK;
         } else {
-            mUnselectedColor = res.getColor(R.color.white);
-            mSelectedColor = res.getColor(R.color.blue);
-            mAmPmTextColor = res.getColor(R.color.ampm_text_color);
+            mUnselectedColor = res.getColor(R.color.bp_white);
+            mSelectedColor = res.getColor(R.color.bp_blue);
+            mAmPmTextColor = res.getColor(R.color.bp_ampm_text_color);
             mSelectedAlpha = SELECTED_ALPHA;
         }
     }

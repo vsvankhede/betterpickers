@@ -73,7 +73,7 @@ public class TimePickerDialogFragment extends DialogFragment {
         // Init defaults
         mTextColor = getResources().getColorStateList(R.color.dialog_text_color_holo_dark);
         mButtonBackgroundResId = R.drawable.button_background_dark;
-        mDividerColor = getResources().getColor(R.color.default_divider_color_dark);
+        mDividerColor = getResources().getColor(R.color.bp_default_divider_color_dark);
         mDialogBackgroundResId = R.drawable.dialog_full_holo_dark;
 
         if (mTheme != -1) {

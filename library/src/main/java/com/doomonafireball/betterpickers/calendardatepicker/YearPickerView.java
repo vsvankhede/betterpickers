@@ -129,8 +129,8 @@ public class YearPickerView extends ListView implements OnItemClickListener, OnD
             Resources res = getResources();
 
             if (res!= null) {
-                v.setBackgroundColor(res.getColor(mThemeDark ?  R.color.light_gray : R.color.white));
-                v.setCircleColor(res.getColor(mThemeDark ? R.color.red : R.color.blue));
+                v.setBackgroundColor(res.getColor(mThemeDark ?  R.color.bp_light_gray : R.color.bp_white));
+                v.setCircleColor(res.getColor(mThemeDark ? R.color.bp_red : R.color.bp_blue));
                 v.setTextColor(res.getColorStateList(mThemeDark ? R.color.calendar_date_holo_dark : R.color.calendar_date_holo_light));
             }
             boolean selected = mController.getSelectedDay().year == year;

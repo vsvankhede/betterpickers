@@ -79,7 +79,7 @@ public class NumberPicker extends LinearLayout implements Button.OnClickListener
         mKeyBackgroundResId = R.drawable.key_background_dark;
         mButtonBackgroundResId = R.drawable.button_background_dark;
         mDeleteDrawableSrcResId = R.drawable.ic_backspace_dark;
-        mDividerColor = getResources().getColor(R.color.default_divider_color_dark);
+        mDividerColor = getResources().getColor(R.color.bp_default_divider_color_dark);
     }
 
     protected int getLayoutId() {

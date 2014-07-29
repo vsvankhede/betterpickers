@@ -4,8 +4,8 @@
 
     <item
             android:state_enabled="false"
-            android:color="@color/default_text_color_holo_dark_disabled"/>
+            android:color="@color/bp_default_text_color_holo_dark_disabled"/>
 
     <item
-            android:color="@color/default_text_color_holo_dark"/>
+            android:color="@color/bp_default_text_color_holo_dark"/>
 </selector>

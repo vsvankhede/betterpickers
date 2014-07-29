@@ -194,10 +194,10 @@ public abstract class MonthView extends View {
         mDayOfWeekTypeface = res.getString(R.string.day_of_week_label_typeface);
         mMonthTitleTypeface = res.getString(R.string.sans_serif);
 
-        mDayTextColor = res.getColor(R.color.date_picker_text_normal);
-        mTodayNumberColor = res.getColor(R.color.blue);
-        mMonthTitleColor = res.getColor(R.color.white);
-        mMonthTitleBGColor = res.getColor(R.color.circle_background);
+        mDayTextColor = res.getColor(R.color.bp_date_picker_text_normal);
+        mTodayNumberColor = res.getColor(R.color.bp_blue);
+        mMonthTitleColor = res.getColor(R.color.bp_white);
+        mMonthTitleBGColor = res.getColor(R.color.bp_circle_background);
 
         mStringBuilder = new StringBuilder(50);
         mFormatter = new Formatter(mStringBuilder, Locale.getDefault());
@@ -224,10 +224,10 @@ public abstract class MonthView extends View {
 
     public void setThemeDark(boolean themeDark) {
         Resources res = mContext.getResources();
-        mDayTextColor = res.getColor(themeDark ? R.color.white : R.color.date_picker_text_normal);
-        mTodayNumberColor = res.getColor(themeDark ? R.color.red : R.color.blue);
-        mMonthTitleColor = res.getColor(R.color.white);
-        mMonthTitleBGColor = res.getColor(R.color.circle_background);
+        mDayTextColor = res.getColor(themeDark ? R.color.bp_white : R.color.bp_date_picker_text_normal);
+        mTodayNumberColor = res.getColor(themeDark ? R.color.bp_red : R.color.bp_blue);
+        mMonthTitleColor = res.getColor(R.color.bp_white);
+        mMonthTitleBGColor = res.getColor(R.color.bp_circle_background);
         initView();
     }
 

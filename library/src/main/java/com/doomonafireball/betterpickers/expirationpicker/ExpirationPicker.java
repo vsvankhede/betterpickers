@@ -95,8 +95,8 @@ public class ExpirationPicker extends LinearLayout implements Button.OnClickList
         mTextColor = getResources().getColorStateList(R.color.dialog_text_color_holo_dark);
         mKeyBackgroundResId = R.drawable.key_background_dark;
         mButtonBackgroundResId = R.drawable.button_background_dark;
-        mTitleDividerColor = getResources().getColor(R.color.default_divider_color_dark);
-        mKeyboardIndicatorColor = getResources().getColor(R.color.default_keyboard_indicator_color_dark);
+        mTitleDividerColor = getResources().getColor(R.color.bp_default_divider_color_dark);
+        mKeyboardIndicatorColor = getResources().getColor(R.color.bp_default_keyboard_indicator_color_dark);
         mDeleteDrawableSrcResId = R.drawable.ic_backspace_dark;
         mCheckDrawableSrcResId = R.drawable.ic_check_dark;
 

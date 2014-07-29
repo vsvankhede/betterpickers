@@ -5,17 +5,17 @@
     <item
             android:state_focused="true"
             android:state_pressed="true"
-            android:drawable="@color/default_button_background_pressed_dark"/>
+            android:drawable="@color/bp_default_button_background_pressed_dark"/>
 
     <item
             android:state_focused="false"
             android:state_pressed="true"
-            android:drawable="@color/default_button_background_pressed_dark"/>
+            android:drawable="@color/bp_default_button_background_pressed_dark"/>
 
     <item
             android:state_focused="true"
-            android:drawable="@color/default_button_background_pressed_dark"/>
+            android:drawable="@color/bp_default_button_background_pressed_dark"/>
 
     <item
-            android:drawable="@color/default_button_background_dark"/>
+            android:drawable="@color/bp_default_button_background_dark"/>
 </selector>

@@ -25,7 +25,6 @@ import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.content.res.ColorStateList;
 import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.app.DialogFragment;
 import android.text.format.DateUtils;
@@ -284,9 +283,9 @@ public class CalendarDatePickerDialog extends DialogFragment implements
 
         ColorStateList textColorStateList = res.getColorStateList(mThemeDark ? R.color.calendar_date_holo_dark : R.color.calendar_date_holo_light);
 
-        int lightBackground = res.getColor(mThemeDark ? R.color.light_gray : R.color.circle_background);
-        int darkBackground = res.getColor(mThemeDark ? R.color.dark_gray : R.color.white);
-        int lineBackground = res.getColor(mThemeDark ? R.color.line_dark : R.color.line_background);
+        int lightBackground = res.getColor(mThemeDark ? R.color.bp_light_gray : R.color.bp_circle_background);
+        int darkBackground = res.getColor(mThemeDark ? R.color.bp_dark_gray : R.color.bp_white);
+        int lineBackground = res.getColor(mThemeDark ? R.color.bp_line_dark : R.color.bp_line_background);
         int doneBackgroundDrawable = mThemeDark ? R.drawable.done_background_color_dark : R.drawable.done_background_color;
 
         mDayPickerView.setThemeDark(mThemeDark);

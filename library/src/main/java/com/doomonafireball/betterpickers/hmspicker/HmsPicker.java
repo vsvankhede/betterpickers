@@ -66,7 +66,7 @@ public class HmsPicker extends LinearLayout implements Button.OnClickListener, B
         mTextColor = getResources().getColorStateList(R.color.dialog_text_color_holo_dark);
         mKeyBackgroundResId = R.drawable.key_background_dark;
         mButtonBackgroundResId = R.drawable.button_background_dark;
-        mDividerColor = getResources().getColor(R.color.default_divider_color_dark);
+        mDividerColor = getResources().getColor(R.color.bp_default_divider_color_dark);
         mDeleteDrawableSrcResId = R.drawable.ic_backspace_dark;
     }
 

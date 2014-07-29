@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dip"
             android:layout_weight="1"
-            android:background="@color/white" >
+            android:background="@color/bp_white" >
             <include
                 layout="@layout/radial_time_header_label"
                 android:layout_width="match_parent"
@@ -44,7 +44,7 @@
             android:id="@+id/line"
             android:layout_width="match_parent"
             android:layout_height="1dip"
-            android:background="@color/line_background" />
+            android:background="@color/bp_line_background" />
         <Button
             android:id="@+id/done_button"
             android:background="@drawable/done_background_color"
@@ -62,5 +62,5 @@
         android:layout_gravity="center"
         android:focusable="true"
         android:focusableInTouchMode="true"
-        android:background="@color/circle_background" />
+        android:background="@color/bp_circle_background" />
 </LinearLayout>

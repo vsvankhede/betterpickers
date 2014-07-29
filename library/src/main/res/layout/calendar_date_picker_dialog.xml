@@ -17,7 +17,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="@dimen/date_picker_component_width"
     android:layout_height="match_parent"
-    android:background="@color/date_picker_view_animator"
+    android:background="@color/bp_date_picker_view_animator"
     android:gravity="center"
     android:orientation="vertical" >
 
@@ -35,7 +35,7 @@
         android:id="@+id/calendar_date_picker_line"
         android:layout_width="@dimen/date_picker_component_width"
         android:layout_height="1dip"
-        android:background="@color/line_background" />
+        android:background="@color/bp_line_background" />
 
     <include layout="@layout/calendar_date_picker_done_button" />
 

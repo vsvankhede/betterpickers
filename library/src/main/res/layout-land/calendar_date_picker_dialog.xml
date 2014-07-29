@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:background="@color/white"
+        android:background="@color/bp_white"
         android:orientation="vertical" >
 
         <LinearLayout
@@ -42,7 +42,7 @@
             android:id="@+id/calendar_date_picker_line"
             android:layout_width="match_parent"
             android:layout_height="1dip"
-            android:background="@color/line_background" />
+            android:background="@color/bp_line_background" />
 
         <include layout="@layout/calendar_date_picker_done_button" />
     </LinearLayout>
