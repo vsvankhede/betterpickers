@@ -45,7 +45,7 @@ public class ExpirationView extends PickerLinearLayout {
         mAndroidClockMonoThin =
                 Typeface.createFromAsset(context.getAssets(), "fonts/AndroidClockMono-Thin.ttf");
         mOriginalNumberTypeface =
-                Typeface.createFromAsset(context.getAssets(), "fonts/Roboto-Bold.ttf");
+                Typeface.create(context.getString(R.string.sans_serif), Typeface.BOLD);
 
         // Init defaults
         mTitleColor = getResources().getColorStateList(R.color.dialog_text_color_holo_dark);

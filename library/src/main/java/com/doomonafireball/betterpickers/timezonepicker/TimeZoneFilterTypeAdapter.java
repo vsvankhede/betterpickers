@@ -101,7 +101,7 @@ public class TimeZoneFilterTypeAdapter extends BaseAdapter implements Filterable
         mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
         mSansSerifLightTypeface =
-                Typeface.createFromAsset(context.getAssets(), "fonts/Roboto-Light.ttf");
+                Typeface.create(context.getString(R.string.sans_serif_light), Typeface.NORMAL);
 
     }
 

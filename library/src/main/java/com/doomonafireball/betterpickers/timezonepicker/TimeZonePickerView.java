@@ -69,7 +69,7 @@ public class TimeZonePickerView extends LinearLayout implements TextWatcher, OnI
         inflater.inflate(R.layout.timezonepickerview, this, true);
 
         mSansSerifLightTypeface =
-                Typeface.createFromAsset(context.getAssets(), "fonts/Roboto-Light.ttf");
+                Typeface.create(context.getString(R.string.sans_serif_light), Typeface.NORMAL);
 
         mHideFilterSearchOnStart = hideFilterSearch;
 

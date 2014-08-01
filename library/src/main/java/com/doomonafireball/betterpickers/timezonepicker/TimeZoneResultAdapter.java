@@ -105,7 +105,7 @@ public class TimeZoneResultAdapter extends BaseAdapter implements OnItemClickLis
         mFilteredTimeZoneIndices = new int[mTimeZoneData.size()];
 
         mSansSerifLightTypeface =
-                Typeface.createFromAsset(context.getAssets(), "fonts/Roboto-Light.ttf");
+                Typeface.create(context.getString(R.string.sans_serif_light), Typeface.NORMAL);
 
         onSetFilter(TimeZoneFilterTypeAdapter.FILTER_TYPE_NONE, null, 0);
     }

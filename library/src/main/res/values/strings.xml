@@ -80,6 +80,8 @@
     <string name="radial_numbers_typeface">sans-serif</string>
     <!-- DO NOT TRANSLATE -->
     <string name="sans_serif">sans-serif</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="sans_serif_light">sans-serif-light</string>
 
     <!-- DO NOT TRANSLATE -->
     <string name="day_of_week_label_typeface">sans-serif</string>
