@@ -66,7 +66,11 @@ public class HapticFeedbackController {
             long now = SystemClock.uptimeMillis();
             // We want to try to vibrate each individual tick discretely.
             if (now - mLastVibrate >= VIBRATE_DELAY_MS) {
-                mVibrator.vibrate(VIBRATE_LENGTH_MS);
+                try {
+                    mVibrator.vibrate(VIBRATE_LENGTH_MS);
+                } catch (SecurityException e) {
+                    e.printStackTrace();
+                }
                 mLastVibrate = now;
             }
         }
