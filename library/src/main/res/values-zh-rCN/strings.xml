@@ -150,11 +150,23 @@
         <item quantity="one">每周的 <xliff:g id="days_of_week">%2$s</xliff:g></item>
         <item quantity="other">每 <xliff:g id="number">%1$d</xliff:g> 周的 <xliff:g id="days_of_week">%2$s</xliff:g></item>
     </plurals>
+    <plurals name="weekly_zh">
+        <item quantity="one">每周</item>
+        <item quantity="other">每 <xliff:g id="number">%1$d</xliff:g> 周</item>
+    </plurals>
     <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
     <string name="monthly">每月</string>
+    <plurals name="monthly_zh">
+        <item quantity="one">每月</item>
+        <item quantity="other">每 <xliff:g id="number">%1$d</xliff:g> 月</item>
+    </plurals>
     <!-- Calendar spinner item, to select that an event recurs every year. -->
     <string name="yearly_plain">每年</string>
+    <plurals name="yearly_zh">
+        <item quantity="one">每年</item>
+        <item quantity="other">每 <xliff:g id="number">%1$d</xliff:g> 年</item>
+    </plurals>
 
     <string name="switch_on">开启</string>
     <string name="switch_off">关闭</string>

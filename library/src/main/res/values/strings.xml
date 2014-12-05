@@ -164,11 +164,25 @@
         <item quantity="one">Weekly on <xliff:g id="days_of_week">%2$s</xliff:g></item>
         <item quantity="other">Every <xliff:g id="number">%1$d</xliff:g> weeks on <xliff:g id="days_of_week">%2$s</xliff:g></item>
     </plurals>
+    <!-- A description for an event that repeats weekly on some day of the week. For example,
+         'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+    <plurals name="weekly_zh">
+        <item quantity="one">Weekly</item>
+        <item quantity="other">Every <xliff:g id="number">%1$d</xliff:g> weeks</item>
+    </plurals>
     <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
     <string name="monthly">Monthly</string>
+    <plurals name="monthly_zh">
+        <item quantity="one">Monthly</item>
+        <item quantity="other">Every <xliff:g id="number">%1$d</xliff:g> months</item>
+    </plurals>
     <!-- Calendar spinner item, to select that an event recurs every year. -->
     <string name="yearly_plain">Yearly</string>
+    <plurals name="yearly_zh">
+        <item quantity="one">Yearly</item>
+        <item quantity="other">Every <xliff:g id="number">%1$d</xliff:g> years</item>
+    </plurals>
 
     <string name="switch_on">ON</string>
     <string name="switch_off">OFF</string>
