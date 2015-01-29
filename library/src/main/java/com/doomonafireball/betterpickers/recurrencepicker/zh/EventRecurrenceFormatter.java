@@ -105,6 +105,9 @@ public class EventRecurrenceFormatter
                 return r.getQuantityString(R.plurals.monthly_zh, interval, interval) + endString;
                 /*
                 if (recurrence.bydayCount == 1) {
+                    if (recurrence.startDate == null) {
+                            return null;
+                    }
                     int weekday = recurrence.startDate.weekDay;
                     // Cache this stuff so we won't have to redo work again later.
                     cacheMonthRepeatStrings(r, weekday);
@@ -150,6 +153,7 @@ public class EventRecurrenceFormatter
 
     /**
      * Converts day of week to a String.
+     *
      * @param day a EventRecurrence constant
      * @return day of week as a string
      */
@@ -159,19 +163,28 @@ public class EventRecurrenceFormatter
 
     /**
      * Converts EventRecurrence's day of week to DateUtil's day of week.
+     *
      * @param day of week as an EventRecurrence value
      * @return day of week as a DateUtil value.
      */
     private static int dayToUtilDay(int day) {
         switch (day) {
-        case EventRecurrence.SU: return Calendar.SUNDAY;
-        case EventRecurrence.MO: return Calendar.MONDAY;
-        case EventRecurrence.TU: return Calendar.TUESDAY;
-        case EventRecurrence.WE: return Calendar.WEDNESDAY;
-        case EventRecurrence.TH: return Calendar.THURSDAY;
-        case EventRecurrence.FR: return Calendar.FRIDAY;
-        case EventRecurrence.SA: return Calendar.SATURDAY;
-        default: throw new IllegalArgumentException("bad day argument: " + day);
+            case EventRecurrence.SU:
+                return Calendar.SUNDAY;
+            case EventRecurrence.MO:
+                return Calendar.MONDAY;
+            case EventRecurrence.TU:
+                return Calendar.TUESDAY;
+            case EventRecurrence.WE:
+                return Calendar.WEDNESDAY;
+            case EventRecurrence.TH:
+                return Calendar.THURSDAY;
+            case EventRecurrence.FR:
+                return Calendar.FRIDAY;
+            case EventRecurrence.SA:
+                return Calendar.SATURDAY;
+            default:
+                throw new IllegalArgumentException("bad day argument: " + day);
         }
     }
 }
