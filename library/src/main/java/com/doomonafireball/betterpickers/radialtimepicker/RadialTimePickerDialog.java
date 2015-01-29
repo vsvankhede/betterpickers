@@ -119,7 +119,7 @@ public class RadialTimePickerDialog extends DialogFragment implements OnValueSel
     public interface OnTimeSetListener {
 
         /**
-         * @param RadialTimePickerDialog The view associated with this listener.
+         * @param dialog The view associated with this listener.
          * @param hourOfDay The hour that was set.
          * @param minute The minute that was set.
          */

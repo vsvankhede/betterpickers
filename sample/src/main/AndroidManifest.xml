@@ -292,6 +292,14 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".activity.calendardatepicker.SampleCalendarDateDark"
+            android:label="Calendar Date/Dark">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.doomonafireball.betterpickers.sample.SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".activity.radialtimepicker.SampleRadialTimeDefault"
             android:label="Radial Time/Default">
             <intent-filter>
